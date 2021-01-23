@@ -44,10 +44,18 @@ k)	We run this Pipeline multiple times and we register our model for future use.
 l)	The trained model is then saved, this is important if we want to deploy our model or use it in some other experiments.
 
 
+<img src = "2.png"  />
+
+<img src = "c and max_iter.png" />
+
 ## AutoML
 25 models were generated from AutoML and few of them gave better accuracy than Logistic Regression that we used in Hyperdrive. One model that gave us high accuracy is “Voting Ensemble” i.e. 0.91712 accuracy. 
 
 A voting ensemble works by combining the predictions from multiple models. It can be used for classification or regression. In the case of regression, this involves calculating the average of the predictions from the models. In the case of classification, the predictions for each label are summed and the label with the majority vote is predicted.
+
+<img src = "automl best.png"  />
+<img src = "automl metrics.png"  />
+<img src = "bestmodel.png"  />
 
 
 ## Pipeline comparison
